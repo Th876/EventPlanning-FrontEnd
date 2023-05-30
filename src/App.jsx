@@ -1,13 +1,24 @@
-import { useState } from 'react'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 
+'react-router-dom';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import HomePage from './pages/HomePage';
+import Dashboard from './pages/Dashboard';
+import './App.css';
 
 function App() {
-
   return (
     <div>
-      <h1 className="text-3xl font-bold text-purple-200 text-center">Event Planning app</h1> 
+    <Router>
+      <Navbar />
+      <Routes>
+      <Route exact path='/' element={<HomePage/>}/>
+      <Route exact path='/dashboard' element={<Dashboard/>}/>
+      </Routes>
+    </Router>
+    <Footer />
     </div>
   )
 }
 
-export default App
+export default App;
