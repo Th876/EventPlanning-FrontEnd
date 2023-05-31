@@ -97,13 +97,13 @@ function UpdateEvent() {
           <p className='text-lg text-center mb-8'>Update Event Details</p>
           <form noValidate onSubmit={handleSubmit}>
             <div className='mb-4'>
-              <label htmlFor='title' className='block text-gray-700'>
-                Title
+              <label htmlFor='eventName' className='block text-gray-700'>
+                Name of Event
               </label>
               <input
                 type='text'
                 placeholder='Event Name'
-                name='title'
+                name='eventName'
                 className='border border-gray-300 px-4 py-2 w-full rounded-md'
                 value={event.eventName}
                 onChange={handleChange}
