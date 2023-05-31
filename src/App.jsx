@@ -1,29 +1,28 @@
-import { BrowserRouter as Router, Routes, Route } from 
-'react-router-dom';
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
-import HomePage from './pages/HomePage';
-import Dashboard from './pages/Dashboard';
-// import Create from './components/CreateEvents';
-import Event from './components/Event';
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
-function App() {
+import CreateEvent from './components/CreateEvent';
+import ShowEvents from './pages/ShowEvents';
+import ShowEventDetails from './components/ShowEventDetails';
+import UpdateEvent from './components/UpdateEvent';
+import Navbar from '../src/components/Navbar';
+import Footer from '../src/components/Footer';
+
+const App = () => {
   return (
-    <div>
     <Router>
       <Navbar />
-      <Routes>
-      <Route exact path='/' element={<HomePage/>}/>
-      <Route exact path='/dashboard' element={<Dashboard/>}/>
-      {/* <Route exact path='/create' element={<Create/>}/> */}
-      <Route exact path='/:id'  element={<Event/>}/>
-      </Routes>
+      <div>
+        <Routes>
+          <Route exact path='/dashboard' element={<ShowEvents />} />
+          <Route path='/create-event' element={<CreateEvent />} />
+          <Route path='/edit-event/:id' element={<UpdateEvent />} />
+          <Route path='/show-event/:id' element={<ShowEventDetails />} />
+        </Routes>
+      </div>
+      <Footer />
     </Router>
-    <Footer />
-    </div>
-  )
-}
+  );
+};
 
 export default App;
