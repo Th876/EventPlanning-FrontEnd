@@ -88,7 +88,7 @@ function ShowEventDetails() {
     <div className='min-h-screen bg-gray-100 pb-20'>
       <div className='container mx-auto bg-gray-100'>
         <div className='flex justify-between items-center py-6'>
-          <Link to='/dashboard' className='bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 ml-10'>
+          <Link to='/dashboard' className='bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 ml-20 mt-10'>
             Back to Dashboard
           </Link>
         </div>

@@ -34,16 +34,13 @@ function ShowEvents() {
         <div className="flex justify-end">
           <Link
             to="/create-event"
-            className="inline-block bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 mr-10"
-          >
-            + Add New Event
+            className="inline-block bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 mr-10">+ Add New Event
           </Link>
         </div>
 
         <hr className="my-4" />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {eventList}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-10">{eventList}
         </div>
       </div>
     </div>
