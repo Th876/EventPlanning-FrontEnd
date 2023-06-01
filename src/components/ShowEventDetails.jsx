@@ -15,7 +15,7 @@ function ShowEventDetails() {
   useEffect(() => {
     // Use useEffect to fetch event details & set state when id param changes
     axios
-      .get(`https://event-planning-back-end.vercel.app/events/${id}`)
+      .get(`https://event-planning-backend.onrender.com/events/${id}`)
       .then((res) => {
         setEvent(res.data);
       })
@@ -28,7 +28,7 @@ function ShowEventDetails() {
   const handleDelete = (id) => {
     // Delete specific event and navigate to dashboard
     axios
-      .delete(`https://event-planning-back-end.vercel.app/events/${id}`)
+      .delete(`https://event-planning-backend.onrender.com/events/${id}`)
       .then(() => {
         navigate('/dashboard');
       })

@@ -8,7 +8,7 @@ function ShowEvents() {
 
   useEffect(() => {
     axios
-      .get('https://event-planning-back-end.vercel.app/events')
+      .get('https://event-planning-backend.onrender.com/events')
       .then((res) => {
         setEvents(res.data);
       })
