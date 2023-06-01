@@ -26,7 +26,7 @@
 </ul>
 
 <h3>Wireframe</h3>
-<img src="/wireframe.png">
+<img src="/wireframe.jpg" width="460" height="660">
 
 <hr></hr>
 <h3>Getting Started</h3>
