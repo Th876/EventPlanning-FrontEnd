@@ -9,9 +9,9 @@
 
 <h3>Technologies Used</h3>
 <ul>
-<li><a href="https://www.mongodb.com/mern-stack">MERN</a></li>
 <li><a href="https://vitejs.dev/">Vite</a></li>
 <li>React Library: <a href="https://react.dev/learn/writing-markup-with-jsx">JSX</a> and <a href="https://react.dev/">React.js</a>
+<li><a href="https://axios-http.com/docs/intro">Axios</a></li>
 <li><a href="https://developer.chrome.com/docs/devtools/open/">Chrome DevTools</a></li>
 <li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
 <li><a href="https://headlessui.com/">Headlessui</a></li>
