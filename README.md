@@ -9,71 +9,40 @@
 
 <h3>Technologies Used</h3>
 <ul>
-<li>MERN</li>
-<li>Vite</li>
-<li>React Library: JSX and React.js</li>
-<li>Tailwind CSS</li>
-<li>Headlessui </li>
-<li>Google fonts</li>
-<li>YouTube</li>
-<li>Chrome DevTools</li>
-<li>Render</li>
-<li>Google Docs</li>
-<li>Visual Studio Code</li>
-<li>Adobe Illustrator</li>
-<li>Adobe Photoshop</li>
-<li>Freepik</li>
+<li><a href="https://www.mongodb.com/mern-stack">MERN</a></li>
+<li><a href="https://vitejs.dev/">Vite</a></li>
+<li>React Library: <a href="https://react.dev/learn/writing-markup-with-jsx">JSX</a> and <a href="https://react.dev/">React.js</a>
+<li><a href="https://developer.chrome.com/docs/devtools/open/">Chrome DevTools</a></li>
+<li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
+<li><a href="https://headlessui.com/">Headlessui</a></li>
+<li><a href="https://fonts.google.com/">Google fonts</a></li>
+<li><a href="https://www.youtube.com/">YouTube</a></li>
+<li><a href="https://render.com/">Render</a></li>
+<li><a href="https://docs.google.com/">Google Docs</a></li>
+<li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+<li><a href=https://www.adobe.com/products/illustrator.html">Adobe Illustrator</a></li>
+<li><a href="https://www.adobe.com/products/photoshop.html">Adobe Photoshop</a></li>
+<li><a href="https://www.freepik.com/">Freepik</a></li>
 </ul>
 
 <hr></hr>
 <h4>Getting Started</h4>
 <p>This is the <a href="https://event-planning-frontend.onrender.com/">live link</a></p>
+<p>This is the <a href="https://github.com/Th876/EventPlanning-BackEnd">backend repository link</a></p>
 
-<p>The homepage features a navigation menu bar that creates an orange underline when users hover over a specific navigation link. In the far right corner is the support link, represented by a '24/7' headset icon. When clicked, this opens up the default email client suggesting that the user may receive support by sending an email to the 'mailto' link address.<br> 
-
-At the center of the homepage is the start button that leads users to the Bucket List Generator page. This page consists of three parts: Bucket List Generator, customer reviews, and the JustGo Travel's accolades.</p>
-
-<h4>API Ninjas Data Source</h4>
-
-<p>The first words on this page is a greeting to the user. There are several greeting options, namely, 'Good morning traveler', 'Good afternoon traveler', 'Good evening traveler', and 'Good night traveler'. The user is greeted with the greeting specific to their local time.</p>
-
-<p>The heading prompts the user to be adventurous and click the 'Explore Now' button so that they can receive a bucklet list idea. This feature returns a random bucket list idea from <a href= "https://api-ninjas.com/api/bucketlist">API Ninjas</a>. When the user clicks the button, a yellow bucket appears on-screen and the idea is loaded above it. The bucket also consists of a button called, 'more adventure' which gives the user the opportunity to refresh the page, click the 'Explore Now' button again for another random bucket list idea. <br>
-
-In addition, as the user begins to scroll 500 pixels away from the top of the page, a back to the top button is triggered so that users can use this shortcut, if needs be. This back to the top button is the JustGo Travel logo.</p>
-
-<p>When users scroll downward, they are able to view the the customer reviews' section which is presented as a carousel with left and right arrows for direction. This carousel was created using an npm <a href="https://www.npmjs.com/package/react-elastic-carousel?activeTab=readme">react-elastic-carousel</a> package. Beneath the reviews' carousel is the company's awards and recoginition. This is displayed as a grid of three columns and the names of the fictitious companies (those that honored JustGo Travel) are included below. </p>
-
-<h4>Google Maps Places Autocomplete Data Source</h4>
-
-<p>This page consists of an Address Lookup feature in which users are able to type in a name of a place, anywhere in the world, and the table above the text input bar displays the latitude and longitude, as well as the address of the place. This was made possible by <a href= "https://www.npmjs.com/pack">Google Maps places library</a> which features a utility function to geocode and receive the latitude and longitude via Google Map's Geocoder API. Also, one can easily refresh their search by clicking the 'refresh search' button below the input bar.</p>
-
-<p>The About navigation menu leads the users to a summary of the company's history. These paragraphs are placeholder text created by a <a href= "https://www.lipsum.com/">Lorem ipsum generator</a>. This page also features a photo grid layout of the employees at JustGo Travel and a section dedicated to partners of the company</p>
 <hr></hr>
+<h4>Future Enhancements</h4>
+<p>In the future, I would like to:</p>
+<ul>
+<li> Add a feature where the event planner is able to edit each event card’s image to reflect the type of event.</li>
+<li> Incorporate a mood board so that the event planner can have multiple images for inspiration. The event planner would be able to retrieve images from their personal computer or the internet.</li>
+<li>User authentication so that the event planner’s information is secure </li>
+<li>A live chat feature in which the event planner can communicate directly with clients.</li>
 
-<h3>Technologies used:</h3>
- <ul>
-  <li>React Library: <a href="https://react.dev/learn/writing-markup-with-jsx">JSX</a> and <a href="https://react.dev/">React.js</a>
-  <li><a href="https://developer.chrome.com/docs/devtools/open/">Chrome DevTools</a></li>
-  <li><a href= "https://developers.google.com/maps/documentation/places/web-service">Google Maps' Places Autocomplete API</a></li>
-  <li><a href= "https://api-ninjas.com/api/bucketlist">API Ninja's Bucket List</a></li>
-  <li><a href="https://render.com/">Render</a></li>
-  <li><a href="https://www.figma.com/">Figma</a></li>
-  <li><a href="https://docs.google.com/">Google Docs</a></li>
-  <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
-  <li><a href="https://github.com/">GitHub</a></li>
-  <li><a href="https://coolors.co/">Coolors</a></li>
-  <li><a href="https://www.lipsum.com/">Lorem Ipsum</a></li>
-  <li><a href=https://www.adobe.com/products/illustrator.html">Adobe Illustrator</a></li>
-  <li><a href="https://www.adobe.com/products/photoshop.html">Adobe Photoshop</a></li>
-  <li><a href="https://www.flaticon.com/">Flaticon</a></li>
-  <li><a href="https://www.freeconvert.com/video-compressor">Freeconvert</a></li>
-  <li><a href="https://www.npmjs.com/package/pack">Npm Packages</a></li>
-  <li><a href="https://www.freepik.com/">Freepik</a></li>
-  <li><a href="https://www.pexels.com/">Pexels</a></li>  
-  <li><a href="https://tenor.com/">Tenor</a></li> 
- </ul>
- 
 <hr></hr>
+<h4>How to Setup</h4>
+
+
 
 <h3>Planning Process</h3>
 <p>Google docs was used to jot down ideas for this project. My wireframe was designed via Figma. The website's colors were sourced on Coolors; and animations were created via Adobe Photoshop and Illustrator, and some were sourced on Freepik.</p>
