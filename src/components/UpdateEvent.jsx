@@ -28,7 +28,7 @@ function UpdateEvent() {
   // Use useEffect to fetch updated event details for each id param & set state with the data response
   useEffect(() => {
     axios
-      .get(`http://localhost:3001/events/${id}`)
+      .get(`https://event-planning-back-end.vercel.app/events/${id}`)
       // Destructure data response
       .then(({data}) => {
         const {eventName, clientName, eventType,eventDateTime, venue, theme, numOfGuests, budget, cuisine, entertainment, notes} = data;
@@ -75,7 +75,7 @@ function UpdateEvent() {
     };
 
     axios
-      .put(`http://localhost:3001/events/${id}`, specs)
+      .put(`https://event-planning-back-end.vercel.app/events/${id}`, specs)
       .then(() => {
         navigate(`/show-event/${id}`);
       })
