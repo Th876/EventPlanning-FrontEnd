@@ -37,19 +37,6 @@ const CreateEvent = () => {
       // Make post request to endpoint with new details on submission
       console.log(event);
     await axios.post('http://localhost:3001/events', event);
-      // setEvent({
-        // eventName: "",
-        // clientName: "",
-        // eventType: "",
-        // eventDateTime: "",
-        // venue: "",
-        // theme: "",
-        // numOfGuests: "",
-        // budget: "",
-        // cuisine: "",
-        // entertainment: "",
-        // notes: "",
-      // });
 
       // After form submission, navigate to dashboard
       nav('/dashboard');

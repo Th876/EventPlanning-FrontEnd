@@ -88,18 +88,18 @@ function ShowEventDetails() {
     <div className='min-h-screen bg-gray-100 pb-20'>
       <div className='container mx-auto bg-gray-100'>
         <div className='flex justify-between items-center py-6'>
-          <Link to='/dashboard' className='bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 ml-20 mt-10'>
+          <Link to='/dashboard' className='bg-purple-700 text-white px-4 py-2 rounded-md hover:bg-blue-400 ml-20 mt-10 font-geo mb-10'>
             Back to Dashboard
           </Link>
         </div>
         <div className='max-w-md mx-auto bg-white shadow-lg rounded-lg p-6'>
-          <h1 className='text-3xl text-center font-bold mb-4'>Event Details</h1>
+          <h1 className='text-3xl text-center font-bold text-pink-900 mb-4'>Event Details</h1>
           <hr className='mb-8' />
           {EventItem}
           <div className='flex justify-between mt-8'>
             <button
               type='button'
-              className='bg-red-500 text-white px-4 py-2 rounded-lg w-1/2 mr-4 hover:bg-red-600'
+              className='bg-red-700 text-white px-4 py-2 rounded-lg w-1/2 mr-4 hover:bg-red-600'
               onClick={() => {
                 handleDelete(event._id);
               }}

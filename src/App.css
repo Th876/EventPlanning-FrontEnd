@@ -1,3 +1,6 @@
+/* Fonts here*/
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;500;600;700;800&family=Lilita+One&family=Shrikhand&family=Titan+One&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

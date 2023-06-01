@@ -28,13 +28,13 @@ function ShowEvents() {
     <div className="min-h-screen bg-gray-100">
       <div className="container mx-auto py-8">
         <div className="text-center">
-          <h2 className="text-4xl font-bold mb-4">Dashboard</h2>
+          <h2 className="text-6xl font-bold mb-4 mt-12 font-geo text-pink-900">Dashboard</h2>
         </div>
 
         <div className="flex justify-end">
           <Link
             to="/create-event"
-            className="inline-block bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 mr-10">+ Add New Event
+            className="inline-block bg-blue-900 text-white px-4 py-2 rounded-md hover:bg-blue-400 mr-10 font-geo">+ Add New Event
           </Link>
         </div>
 

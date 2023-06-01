@@ -1,7 +1,8 @@
 // Tailwind CSS navbar imports
 /* eslint-disable react/no-unknown-property */
 import { Disclosure,} from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import logo1 from "../images/logo1.svg";
 
 const navigation = [
   { name: 'Home', href: '/'},
@@ -15,7 +16,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-gray-900">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -35,16 +36,16 @@ export default function Example() {
                 <div className="flex flex-shrink-0 items-center">
                 
                   <img
-                    className="block h-8 w-auto lg:hidden ml-2"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    className="block h-8 w-auto lg:hidden"
+                    src={logo1}
                     alt="PlaniVerse logo"
                   />
                   <img
-                    className="hidden h-8 w-auto lg:block ml-2"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    className="hidden h-8 w-auto lg:block"
+                    src={logo1}
                     alt="PlaniVerse logo"
                   /> 
-                  <span className="text-white ml-2 font-semibold text-xl">PlaniVerse</span>
+                  <span className="text-white font-semibold text-2xl font-geo">PlaniVerse</span>
                 </div>
                 <div className="hidden sm:block ml-auto">
                   <div className="flex space-x-4">
@@ -53,8 +54,8 @@ export default function Example() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'rounded-md px-3 py-2 text-sm font-medium'
+                          item.current ? 'bg-gray-900 text-white' : 'text-white hover:bg-purple-200 hover:text-gray-900',
+                          'rounded-md px-3 py-2 text-xl font-medium font-geo'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >

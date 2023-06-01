@@ -88,12 +88,12 @@ function UpdateEvent() {
     <div className='min-h-screen bg-gray-100'>
       <div className='container mx-auto pb-12'>
         <div className='flex justify-between items-center py-6'>
-          <Link to='/dashboard' className='bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 ml-20 mt-10'>
+          <Link to='/dashboard' className='bg-purple-700 text-white px-4 py-2 rounded-md hover:bg-blue-400 ml-20 mt-10 mb-10'>
             Back to Dashboard
           </Link>
         </div>
         <div className='max-w-md mx-auto bg-white shadow-lg rounded-lg p-6'>
-          <h1 className='text-3xl font-bold mb-10 text-center'>Edit Event</h1>
+          <h1 className='text-3xl font-bold mb-10 text-center text-pink-900'>Edit Event</h1>
           <form noValidate onSubmit={handleSubmit}>
             <div className='mb-4'>
               <label htmlFor='eventName' className='block text-gray-700'>
@@ -248,7 +248,7 @@ function UpdateEvent() {
 
             <button
               type='submit'
-              className='bg-blue-500 text-white px-4 py-2 rounded-md w-full hover:bg-blue-600'
+              className='text-white px-4 py-2 rounded-md w-full hover:bg-purple-500 bg-pink-600'
             >
               Update Event
             </button>
