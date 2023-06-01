@@ -1,10 +1,10 @@
 # EventPlanning-FrontEnd
-<!--planiverse-screengrab
+<!--
 <p align="center">
-  <img width="960" src="./travelapprepo.png">
+  <img width="960" src="./planiverse-screengrab.png">
 </p>
 
-<p> JustGo Travel is the second project I created at <a href="https://perscholas.org/courses/software-engineer/software-engineer-atlanta/">Per Scholas'</a> Software Engineer Training using React.js. This is a fictitious website that focuses on travel and utilizes the Fetch method and UseEffect hook to make a request to <a href= "https://developers.google.com/maps/documentation/places/web-service">Google Maps' Places Autocomplete API</a> and <a href= "https://api-ninjas.com/api/bucketlist">API Ninja's Bucket List</a>. This is the <a href= "https://travelapp-f8sm.onrender.com/">live link</a> for my React Application.</p>
+<p>PlaniVerse is the third project I created at <a href="https://perscholas.org/courses/software-engineer/software-engineer-atlanta/">Per Scholas'</a> Software Engineer Training program using the <a href="https://www.mongodb.com/mern-stack">MERN</a>stack. It is an event planning app in which the user, i.e. an event planner, is able to do all four <a href="https://www.mongodb.com/basics/crud">CRUD</a> operations. The <a href="https://github.com/Th876/EventPlanning-FrontEnd">frontend</a> and <a href="https://github.com/Th876/EventPlanning-BackEnd">backend</a> are created in two separate GitHub repositories. More specifically, an event planner is able to create, display, update, and delete an event. This is the <a href="https://event-planning-frontend.onrender.com/">live link</a> for my MERN Application.</p>
 <hr></hr>
 
 <h3>Application Features</h3>
