@@ -7,7 +7,27 @@
 <p>PlaniVerse is the third project I created at <a href="https://perscholas.org/courses/software-engineer/software-engineer-atlanta/">Per Scholas'</a> Software Engineer Training program using the <a href="https://www.mongodb.com/mern-stack">MERN</a>stack. It is an event planning app in which the user, i.e. an event planner, is able to do all four <a href="https://www.mongodb.com/basics/crud">CRUD</a> operations. The <a href="https://github.com/Th876/EventPlanning-FrontEnd">frontend</a> and <a href="https://github.com/Th876/EventPlanning-BackEnd">backend</a> are created in two separate GitHub repositories. More specifically, an event planner is able to create, display, update, and delete an event. This is the <a href="https://event-planning-frontend.onrender.com/">live link</a> for my MERN Application.</p>
 <hr></hr>
 
-<h3>Application Features</h3>
+<h3>Technologies Used</h3>
+<ul>
+<li>MERN</li>
+<li>Vite</li>
+<li>React Library: JSX and React.js</li>
+<li>Tailwind CSS</li>
+<li>Headlessui </li>
+<li>Google fonts</li>
+<li>YouTube</li>
+<li>Chrome DevTools</li>
+<li>Render</li>
+<li>Google Docs</li>
+<li>Visual Studio Code</li>
+<li>Adobe Illustrator</li>
+<li>Adobe Photoshop</li>
+<li>Freepik</li>
+</ul>
+
+<hr></hr>
+<h4>Getting Started</h4>
+<p>This is the <a href="https://event-planning-frontend.onrender.com/">live link</a></p>
 
 <p>The homepage features a navigation menu bar that creates an orange underline when users hover over a specific navigation link. In the far right corner is the support link, represented by a '24/7' headset icon. When clicked, this opens up the default email client suggesting that the user may receive support by sending an email to the 'mailto' link address.<br> 
 
