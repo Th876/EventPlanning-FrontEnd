@@ -108,7 +108,7 @@ function ShowEventDetails() {
             </button>
             <Link
               to={`/edit-event/${event._id}`}
-              className='bg-blue-500 text-white px-4 py-2 rounded-lg w-1/2 hover:bg-blue-600'
+              className='bg-indigo-700 text-white px-4 py-2 rounded-lg w-1/2 hover:bg-indigo-600 text-center'
             >
               Edit Event
             </Link>
