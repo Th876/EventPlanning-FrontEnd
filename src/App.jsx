@@ -14,8 +14,8 @@ const App = () => {
       <Navbar />
       <div>
         <Routes>
-        <Route exact path='/' element={<HomePage />} />
-          <Route exact path='/dashboard' element={<ShowEvents />} />
+        <Route path='/' element={<HomePage />} />
+          <Route path='/dashboard' element={<ShowEvents />} />
           <Route path='/create-event' element={<CreateEvent />} />
           <Route path='/edit-event/:id' element={<UpdateEvent />} />
           <Route path='/show-event/:id' element={<ShowEventDetails />} />
