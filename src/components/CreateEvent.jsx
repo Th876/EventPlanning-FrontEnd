@@ -39,7 +39,7 @@ const CreateEvent = () => {
     await axios.post('https://event-planning-backend.onrender.com/events', event);
 
       // After form submission, navigate to dashboard
-      nav('/dashboard');
+      nav('/');
 
     } catch(error) {
       console.log('Error creating event', error);
