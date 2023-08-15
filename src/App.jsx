@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import HomePage from './pages/HomePage';
-import LandingPage from './components/LandingPage';
 import CreateEvent from './components/CreateEvent';
 import ShowEvents from './pages/ShowEvents';
 import ShowEventDetails from './components/ShowEventDetails';
@@ -15,7 +14,7 @@ const App = () => {
       <Navbar />
       <div>
         <Routes>
-        <Route path='/home' element={<LandingPage />} />
+        <Route path='/home' element={<HomePage />} />
           <Route path='/' element={<ShowEvents />} />
           <Route path='/create-event' element={<CreateEvent />} />
           <Route path='/edit-event/:id' element={<UpdateEvent />} />
