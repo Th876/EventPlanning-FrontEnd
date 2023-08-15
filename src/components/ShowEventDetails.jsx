@@ -30,7 +30,7 @@ function ShowEventDetails() {
     axios
       .delete(`https://event-planning-backend.onrender.com/events/${id}`)
       .then(() => {
-        navigate('/');
+        navigate('/dashboard');
       })
       .catch((error) => {
         console.log('Error form deleting show event details', error);
@@ -88,7 +88,7 @@ function ShowEventDetails() {
     <div className='min-h-screen bg-gray-100 pb-20'>
       <div className='container mx-auto bg-gray-100'>
         <div className='flex justify-between items-center py-6'>
-          <Link to='/' className='bg-purple-700 text-white px-4 py-2 rounded-md hover:bg-blue-400 ml-20 mt-10 font-geo mb-10'>
+          <Link to='/dashboard' className='bg-purple-700 text-white px-4 py-2 rounded-md hover:bg-blue-400 ml-20 mt-10 font-geo mb-10'>
             Back to Dashboard
           </Link>
         </div>
