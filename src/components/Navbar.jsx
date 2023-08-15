@@ -6,7 +6,7 @@ import logo1 from "../images/logo1.svg";
 
 const navigation = [
   { name: 'Home', href: '/'},
-  {name: "Dashboard', href: '/dashboard'},
+   { name: 'Dashboard', href: '/dashboard'},
   { name: 'Support', href: 'mailto:planiverse@example.com'},
 ]
 
