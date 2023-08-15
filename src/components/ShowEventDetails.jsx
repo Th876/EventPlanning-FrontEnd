@@ -30,7 +30,7 @@ function ShowEventDetails() {
     axios
       .delete(`https://event-planning-backend.onrender.com/events/${id}`)
       .then(() => {
-        navigate('/dashboard');
+        navigate('/');
       })
       .catch((error) => {
         console.log('Error form deleting show event details', error);
