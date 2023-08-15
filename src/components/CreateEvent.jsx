@@ -39,7 +39,7 @@ const CreateEvent = () => {
     await axios.post('https://event-planning-backend.onrender.com/events', event);
 
       // After form submission, navigate to dashboard
-      nav('/');
+      nav('/dashboard');
 
     } catch(error) {
       console.log('Error creating event', error);
@@ -50,7 +50,7 @@ const CreateEvent = () => {
       <div className='w-full max-w-md pb-12'>
         <div className='mb-4'>
             
-            <Link to='/' className='inline-block bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 mb-10 mt-10 -ml-60'>
+            <Link to='/dashboard' className='inline-block bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 mb-10 mt-10 -ml-60'>
               Back to Dashboard
             </Link>
           </div>
