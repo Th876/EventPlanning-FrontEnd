@@ -5,8 +5,8 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import logo1 from "../images/logo1.svg";
 
 const navigation = [
-  { name: 'Home', href: '/'},
-  { name: 'Dashboard', href: '/dashboard'},
+  { name: 'Home', href: '/home'},
+  { name: 'Dashboard', href: '/'},
   { name: 'Support', href: 'mailto:planiverse@example.com'},
 ]
 
