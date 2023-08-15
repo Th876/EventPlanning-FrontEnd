@@ -47,7 +47,7 @@ export default function Example() {
                   <span className="text-white font-semibold text-2xl font-geo">PlaniVerse</span>
                 </div>
                 <div className="hidden sm:block ml-auto">
-                  <div className="flex space-x-6">
+                  <div className="flex space-x-8">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
