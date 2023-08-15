@@ -88,7 +88,7 @@ function UpdateEvent() {
     <div className='min-h-screen bg-gray-100'>
       <div className='container mx-auto pb-12'>
         <div className='flex justify-between items-center py-6'>
-          <Link to='/' className='bg-purple-700 text-white px-4 py-2 rounded-md hover:bg-blue-400 ml-20 mt-10 mb-10'>
+          <Link to='/dashboard' className='bg-purple-700 text-white px-4 py-2 rounded-md hover:bg-blue-400 ml-20 mt-10 mb-10'>
             Back to Dashboard
           </Link>
         </div>
